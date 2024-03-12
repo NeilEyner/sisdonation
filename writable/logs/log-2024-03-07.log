@@ -1,0 +1,164 @@
+CRITICAL - 2024-03-07 06:59:23 --> ParseError: syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH\Views\welcome_message.php on line 21.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 06:59:24 --> ParseError: syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH\Views\welcome_message.php on line 21.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 06:59:25 --> ParseError: syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH\Views\welcome_message.php on line 21.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 07:58:14 --> ErrorException: Undefined variable $personas
+in APPPATH\Views\base.php on line 50.
+ 1 APPPATH\Views\base.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $personas', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\base.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('base', null, true)
+ 5 APPPATH\Views\index.php(574): CodeIgniter\View\View->include('base')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\index.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 9 APPPATH\Controllers\Home.php(10): view('index')
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 08:02:51 --> ErrorException: Undefined variable $personas
+in APPPATH\Views\base.php on line 50.
+ 1 APPPATH\Views\base.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $personas', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\base.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('base', null, true)
+ 5 APPPATH\Views\index.php(574): CodeIgniter\View\View->include('base')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\index.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 9 APPPATH\Controllers\Home.php(10): view('index')
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 08:06:47 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\Home.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-07 08:06:48 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\Home.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-07 08:06:48 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\Home.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-07 08:06:48 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\Home.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-07 08:07:02 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\Home.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-07 08:09:37 --> ErrorException: Undefined array key "empresa"
+in APPPATH\Views\base.php on line 58.
+ 1 APPPATH\Views\base.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "empresa"', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\base.php', 58)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('base', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('base', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 08:10:19 --> ErrorException: Undefined array key "empresa"
+in APPPATH\Views\base.php on line 58.
+ 1 APPPATH\Views\base.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "empresa"', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\base.php', 58)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('base', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('base', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 08:11:04 --> ErrorException: Undefined array key "empresa"
+in APPPATH\Views\base.php on line 58.
+ 1 APPPATH\Views\base.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "empresa"', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\base.php', 58)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('base', null, true)
+ 5 APPPATH\Views\index.php(574): CodeIgniter\View\View->include('base')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\index.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 9 APPPATH\Controllers\Home.php(17): view('index', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 08:13:50 --> ErrorException: Undefined array key "empresa"
+in APPPATH\Views\index.php on line 631.
+ 1 APPPATH\Views\index.php(631): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "empresa"', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\index.php', 631)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 08:16:56 --> ErrorException: Undefined array key "empresa"
+in APPPATH\Views\index.php on line 631.
+ 1 APPPATH\Views\index.php(631): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "empresa"', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\index.php', 631)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 08:19:25 --> ErrorException: Undefined array key "empresa"
+in APPPATH\Views\index.php on line 631.
+ 1 APPPATH\Views\index.php(631): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "empresa"', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\index.php', 631)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 08:20:06 --> ErrorException: Undefined array key "empresa"
+in APPPATH\Views\index.php on line 631.
+ 1 APPPATH\Views\index.php(631): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "empresa"', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\index.php', 631)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 08:22:04 --> ErrorException: Undefined array key "empresa"
+in APPPATH\Views\index.php on line 631.
+ 1 APPPATH\Views\index.php(631): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "empresa"', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\index.php', 631)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
