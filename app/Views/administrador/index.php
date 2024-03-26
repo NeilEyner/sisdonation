@@ -1,12 +1,25 @@
-<header>
-    <?= view('common/navbar') ?>
+<!DOCTYPE html>
+<html lang="es">
 
-</header>
+<head>
+    <?= $this->include('common/header'); ?>
+</head>
 
-<h2>Panel de Administrador</h2>
+<body class="">
 
-<?= view('administrador/dashboard') ?>
+    <!-- Barra de navegación -->
+    <header>
+        <?= $this->include('common/navbar'); ?>
 
-<footer>
-    <?= view('common/footer') ?>
-</footer>
+    </header>
+    <main>
+        <?= $this->include('administrador/estadisticas') ?>
+        <?= view('administrador/dashboard') ?>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <?= $this->include('common/footer'); ?>
+    </footer>
+
+</body>

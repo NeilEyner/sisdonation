@@ -9,6 +9,11 @@ use CodeIgniter\Router\RouteCollection;
 
 $routes->get('/', 'HomeController::index');
 $routes->get('home/base', 'HomeController::base');
+$routes->get('home/inicio', 'HomeController::inicio');
+$routes->get('home/quienes_somos', 'HomeController::quienes_somos');
+$routes->get('home/donaciones', 'HomeController::donaciones');
+$routes->get('home/contacto', 'HomeController::contacto');
+$routes->get('home/preguntas', 'HomeController::preguntas');
 
 // Rutas de Autenticación
 $routes->get('login', 'AuthController::login');
@@ -28,16 +33,19 @@ $routes->get('administrador/configuracion-sitio', 'AdminController::configuracio
 $routes->get('administrador/estadisticas', 'AdminController::estadisticas');
 $routes->get('administrador/productos_vista', 'AdminController::mostrarProductos');
 $routes->get('administrador/usuarios', 'AdminController::usuarios');
+
 $routes->match(['get', 'post'], 'administrador/agregar-persona', 'AdminController::agregarPersona');
 $routes->get('administrador/agregar_persona', 'AdminController::agregarPersona');
-
-
-
-
 $routes->get('administrador/editar_persona/(:num)', 'AdminController::editar_persona/$1');
 $routes->post('administrador/guardar_edicion_persona/(:num)', 'AdminController::guardar_edicion_persona/$1');
-
 $routes->get('administrador/eliminar_persona/(:num)', 'AdminController::eliminarPersona/$1');
+
+$routes->match(['get', 'post'], 'administrador/agregar-organizacion', 'AdminController::agregarOrganizacion');
+$routes->get('administrador/agregar_organizacion', 'AdminController::agregarOrganizacion');
+$routes->get('administrador/editar_organizacion/(:num)', 'AdminController::editar_organizacion/$1');
+$routes->post('administrador/guardar_edicion_organizacion/(:num)', 'AdminController::guardar_edicion_organizacion/$1');
+$routes->get('administrador/eliminar_organizacion/(:num)', 'AdminController::eliminarOrganizacion/$1');
+
 
 
 // Rutas del Voluntario

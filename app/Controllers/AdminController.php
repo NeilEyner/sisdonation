@@ -8,6 +8,7 @@ use CodeIgniter\Controller;
 use App\Models\PersonaModel;
 use App\Models\AutenticacionModel;
 use App\Models\DonacionesModel;
+use App\Models\OrganizacionModel;
 
 
 class AdminController extends BaseController
@@ -78,136 +79,98 @@ class AdminController extends BaseController
         $organizacionQuery = $db->table('organizacion')->get();
         $data['organizaciones'] = $organizacionQuery->getResultArray();
 
-
         // Cargar la vista de usuarios con los datos
         return view('administrador/usuarios', $data);
     }
     // Controlador: AdminController.php
 
     // app/Controllers/AdminController.php
-public function agregarPersona()
-{
-    if ($this->request->getMethod() === 'post') {
-        $nombre = $this->request->getPost('nombre');
-        $apellido = $this->request->getPost('apellido');
-        $ci = $this->request->getPost('ci');
-        $correo = $this->request->getPost('correo');
-        $telefono = $this->request->getPost('telefono');
-        $direccion = $this->request->getPost('direccion');
-        $fechaNacimiento = $this->request->getPost('fecha_nacimiento');
-        $tipoPersona = $this->request->getPost('tipo_persona');
-        $fotoNombre = $this->request->getPost('foto');
-        $usuario = $this->request->getPost('usuario');
+    public function agregarPersona()
+    {
+        if ($this->request->getMethod() === 'post') {
+            $nombre = $this->request->getPost('nombre');
+            $apellido = $this->request->getPost('apellido');
+            $ci = $this->request->getPost('ci');
+            $correo = $this->request->getPost('correo');
+            $telefono = $this->request->getPost('telefono');
+            $direccion = $this->request->getPost('direccion');
+            $fechaNacimiento = $this->request->getPost('fecha_nacimiento');
+            $tipoPersona = $this->request->getPost('tipo_persona');
+            $fotoNombre = $this->request->getPost('foto');
+            $usuario = $this->request->getPost('usuario');
 
-        // Construir el array de datos para la persona
-        $personaData = [
-            'nombre' => $nombre,
-            'apellido' => $apellido,
-            'ci' => $ci,
-            'correo' => $correo,
-            'telefono' => $telefono,
-            'direccion' => $direccion,
-            'fecha_nacimiento' => $fechaNacimiento,
-            'tipo_persona' => $tipoPersona,
-            'foto' => $fotoNombre,
-        ];
-
-        // Instanciar el modelo
-        $personaModel = new PersonaModel();
-
-        // Realizar la inserción a través del método del modelo
-        if ($personaModel->agregarPersona($personaData)) {
-            // Obtener el ID de la persona recién insertada
-            $personaId = $personaModel->getInsertID();
-
-            // Obtener la contraseña del formulario
-            $contrasena = $this->request->getPost('contrasena');
-
-            // Instanciar el modelo de autenticación
-            $authModel = new AutenticacionModel();
-
-            // Construir el array de datos para la autenticación
-            $authData = [
-                'usuario' => $usuario,
-                'contrasena' => $contrasena,
-                'persona_id' => $personaId,
+            // Construir el array de datos para la persona
+            $personaData = [
+                'nombre' => $nombre,
+                'apellido' => $apellido,
+                'ci' => $ci,
+                'correo' => $correo,
+                'telefono' => $telefono,
+                'direccion' => $direccion,
+                'fecha_nacimiento' => $fechaNacimiento,
                 'tipo_persona' => $tipoPersona,
+                'foto' => $fotoNombre,
             ];
 
-            // Insertar datos de autenticación en la base de datos
-            $authModel->insert($authData);
+            $personaModel = new PersonaModel();
 
-            // Mostrar un mensaje o redireccionar a otra página
-            echo "Persona agregada correctamente";
-            return redirect()->to('/administrador/usuarios');
+            if ($personaModel->agregarPersona($personaData)) {
+                $personaId = $personaModel->getInsertID();
+                $contrasena = $this->request->getPost('contrasena');
+                $authModel = new AutenticacionModel();
+                $authData = [
+                    'usuario' => $usuario,
+                    'contrasena' => $contrasena,
+                    'persona_id' => $personaId,
+                    'tipo_persona' => $tipoPersona,
+                ];
+                $authModel->insert($authData);
+                echo "Persona agregada correctamente";
+                return redirect()->to('/administrador/usuarios');
+            } else {
+                $errors = $personaModel->errors();
+                print_r($errors);
+            }
         } else {
-            // Inserción fallida
-            $errors = $personaModel->errors();
-            print_r($errors);
+            return view('administrador/agregar_persona');
         }
-    } else {
-        // Mostrar el formulario
-        return view('administrador/agregar_persona');
     }
-}
-public function eliminarPersona($id_persona)
-{
-    // Instancia el modelo de personas
-    $personaModel = new PersonaModel();
+    public function eliminarPersona($id_persona)
+    {
+        $personaModel = new PersonaModel();
+        $db = \Config\Database::connect();
+        $db->transBegin();
 
-    // Cargar la base de datos
-    $db = \Config\Database::connect();
+        try {
+            $persona = $personaModel->find($id_persona);
 
-    // Comienza la transacción
-    $db->transBegin();
-
-    try {
-        // Verifica si la persona existe antes de intentar eliminarla
-        $persona = $personaModel->find($id_persona);
-
-        if ($persona) {
-            // Eliminar registros de Autenticacion vinculados a la persona
-            $db->table('Autenticacion')->where('persona_id', $id_persona)->delete();
-
-            // Persona encontrada, procede con la eliminación
-            $personaModel->delete($id_persona);
-
-            // Confirmar la transacción
-            $db->transCommit();
-
-            // Redirecciona o realiza alguna acción después de la eliminación
-            return redirect()->to('administrador/usuarios')->with('success', 'Persona y registros relacionados eliminados correctamente.');
-        } else {
-            // La persona no existe, realiza un rollback
+            if ($persona) {
+                $db->table('Autenticacion')->where('persona_id', $id_persona)->delete();
+                $personaModel->delete($id_persona);
+                $db->transCommit();
+                return redirect()->to('administrador/usuarios')->with('success', 'Persona y registros relacionados eliminados correctamente.');
+            } else {
+                $db->transRollback();
+                return redirect()->to('administrador/usuarios')->with('error', 'La persona no existe o ya fue eliminada.');
+            }
+        } catch (\Exception $e) {
+            
             $db->transRollback();
-
-            // Maneja el caso adecuadamente, puedes redirigir o mostrar un mensaje de error
-            return redirect()->to('administrador/usuarios')->with('error', 'La persona no existe o ya fue eliminada.');
+            log_message('error', $e->getMessage());
+            return redirect()->to('administrador/usuarios')->with('error', 'Error al intentar eliminar la persona y registros relacionados.');
         }
-    } catch (\Exception $e) {
-        // Ocurrió un error, realiza un rollback y maneja la excepción
-        $db->transRollback();
-        
-        // Puedes loguear el error, redirigir o mostrar un mensaje de error
-        log_message('error', $e->getMessage());
-
-        return redirect()->to('administrador/usuarios')->with('error', 'Error al intentar eliminar la persona y registros relacionados.');
     }
-}
-public function guardar_edicion_persona($id_persona)
-{
-    // Instancia el modelo de personas
-    $personaModel = new PersonaModel();
-    $autenticacionModel = new AutenticacionModel(); // Asegúrate de tener el modelo de Autenticacion configurado
+    public function guardar_edicion_persona($id_persona)
+    {
+        $personaModel = new PersonaModel();
+        $autenticacionModel = new AutenticacionModel();
 
-    // Obtén la información de la persona que deseas editar
-    $data['persona'] = $personaModel->find($id_persona);
+        $data['persona'] = $personaModel->find($id_persona);
 
-    // Verifica si la persona existe
-    if (!$data['persona']) {
-        // La persona no existe, puedes redirigir o mostrar un mensaje de error
-        return redirect()->to('administrador/usuarios')->with('error', 'La persona no existe.');
-    }
+        if (!$data['persona']) {
+
+            return redirect()->to('administrador/usuarios')->with('error', 'La persona no existe.');
+        }
         // Datos de la persona
         $nuevosDatosPersona = [
             'nombre' => $this->request->getPost('nombre'),
@@ -218,7 +181,7 @@ public function guardar_edicion_persona($id_persona)
             'direccion' => $this->request->getPost('direccion'),
             'fecha_nacimiento' => $this->request->getPost('fecha_nacimiento'),
             'tipo_persona' => $this->request->getPost('tipo_persona'),
-            'foto' => $this->request->getPost('foto'), // Asegúrate de tener $fotoNombre definido
+            'foto' => $this->request->getPost('foto'),
         ];
 
         // Datos de autenticación
@@ -228,25 +191,188 @@ public function guardar_edicion_persona($id_persona)
             'tipo_persona' => $this->request->getPost('tipo_persona'),
         ];
 
-        // Actualiza la información de la persona
-        
+
         $personaModel->actualizarPersona($id_persona, $nuevosDatosPersona);
 
-
-        // Actualiza la información de autenticación
         $autenticacionModel->update(['persona_id' => $id_persona], $nuevosDatosAutenticacion);
 
-        // Redirecciona o realiza alguna acción después de la actualización
         return redirect()->to('administrador/usuarios')->with('success', 'Persona y datos de autenticación actualizados correctamente.');
-}
-public function editar_persona($id_persona)
-{
-    $personaModel = new PersonaModel();
-    $data['persona'] = (object)$personaModel->obtenerPersona($id_persona);
-    // Cargar la vista de edición
-    return view('administrador/editar_persona', $data);
-}
+    }
 
+    public function editar_persona($id_persona)
+    {
+        $personaModel = new PersonaModel();
+        $personaData = (object)$personaModel->obtenerPersona($id_persona);
 
-    
+        $autenticacionModel = new AutenticacionModel();
+        $credencialesData = (object)$autenticacionModel->obtener_credenciales_por_id_persona($id_persona);
+
+        // Combinar los datos de las dos consultas en un solo array
+        $data = [
+            'persona' => $personaData,
+            'credenciales' => $credencialesData
+        ];
+
+        return view('administrador/editar_persona', $data);
+    }
+
+    // de aqui organizacion
+    public function agregarOrganizacion()
+    {
+        if ($this->request->getMethod() === 'post') {
+            $nombre = $this->request->getPost('nombre_org');
+            $descripcion = $this->request->getPost('descripcion');
+            $tipoOrganizacion = $this->request->getPost('tipo_organizacion');
+            $paginaWeb = $this->request->getPost('pagina_web');
+            $ubicacion = $this->request->getPost('ubicacion');
+            $personaContacto = $this->request->getPost('persona_contacto');
+            $telefonoContacto = $this->request->getPost('telefono_contacto');
+            $emailContacto = $this->request->getPost('email_contacto');
+
+            // Construir el array de datos para la organización
+            $organizacionData = [
+                'nombre' => $nombre,
+                'descripcion' => $descripcion,
+                'tipo_organizacion' => $tipoOrganizacion,
+                'pagina_web' => $paginaWeb,
+                'ubicacion' => $ubicacion,
+                'persona_contacto' => $personaContacto,
+                'telefono_contacto' => $telefonoContacto,
+                'email_contacto' => $emailContacto,
+            ];
+
+            // Instanciar el modelo
+            $organizacionModel = new OrganizacionModel();
+
+            // Realizar la inserción a través del método del modelo
+            if ($organizacionModel->agregarOrganizacion($organizacionData)) {
+                // Obtener el ID de la organización recién insertada
+                $organizacionId = $organizacionModel->getInsertID();
+
+                // Obtener el usuario y la contraseña del formulario
+                $usuario = $this->request->getPost('usuario');
+                $contrasena = $this->request->getPost('contrasena');
+
+                // Instanciar el modelo de autenticación
+                $authModel = new AutenticacionModel();
+
+                // Construir el array de datos para la autenticación
+                $authData = [
+                    'usuario' => $usuario,
+                    'contrasena' => $contrasena,
+                    'organizacion_id' => $organizacionId,
+                    'tipo_persona' => 'ORGANIZACION',
+                ];
+
+                // Insertar datos de autenticación en la base de datos
+                $authModel->insert($authData);
+
+                // Mostrar un mensaje o redireccionar a otra página
+                echo "Organización agregada correctamente";
+                return redirect()->to('/administrador/usuarios');
+            } else {
+                // Inserción fallida
+                $errors = $organizacionModel->errors();
+                print_r($errors);
+            }
+        } else {
+            // Mostrar el formulario
+            return view('administrador/agregar_organizacion');
+        }
+    }
+
+    public function eliminarOrganizacion($id_organizacion)
+    {
+        // Instancia el modelo de organizaciones
+        $organizacionModel = new OrganizacionModel();
+
+        // Cargar la base de datos
+        $db = \Config\Database::connect();
+
+        // Comienza la transacción
+        $db->transBegin();
+
+        try {
+            // Verifica si la organización existe antes de intentar eliminarla
+            $organizacion = $organizacionModel->find($id_organizacion);
+
+            if ($organizacion) {
+                // Eliminar registros de Autenticacion vinculados a la organización
+                $db->table('Autenticacion')->where('organizacion_id', $id_organizacion)->delete();
+
+                // Organización encontrada, procede con la eliminación
+                $organizacionModel->delete($id_organizacion);
+
+                // Confirmar la transacción
+                $db->transCommit();
+
+                // Redirecciona o realiza alguna acción después de la eliminación
+                return redirect()->to('administrador/usuarios')->with('success', 'Organización y registros relacionados eliminados correctamente.');
+            } else {
+                // La organización no existe, realiza un rollback
+                $db->transRollback();
+
+                // Maneja el caso adecuadamente, puedes redirigir o mostrar un mensaje de error
+                return redirect()->to('administrador/usuarios')->with('error', 'La organización no existe o ya fue eliminada.');
+            }
+        } catch (\Exception $e) {
+            // Ocurrió un error, realiza un rollback y maneja la excepción
+            $db->transRollback();
+
+            // Puedes loguear el error, redirigir o mostrar un mensaje de error
+            log_message('error', $e->getMessage());
+
+            return redirect()->to('administrador/ousuarios')->with('error', 'Error al intentar eliminar la organización y registros relacionados.');
+        }
+    }
+
+    public function guardar_edicion_organizacion($id_organizacion)
+    {
+        $organizacionModel = new OrganizacionModel();
+        $autenticacionModel = new AutenticacionModel();
+
+        $data['organizacion'] = $organizacionModel->find($id_organizacion);
+
+        if (!$data['organizacion']) {
+            return redirect()->to('administrador/usuarios')->with('error', 'La organización no existe.');
+        }
+        $nuevosDatosOrganizacion = [
+            'nombre' => $this->request->getPost('nombre_org'),
+            'descripcion' => $this->request->getPost('descripcion'),
+            'tipo_organizacion' => $this->request->getPost('tipo_organizacion'),
+            'pagina_web' => $this->request->getPost('pagina_web'),
+            'ubicacion' => $this->request->getPost('ubicacion'),
+            'persona_contacto' => $this->request->getPost('persona_contacto'),
+            'telefono_contacto' => $this->request->getPost('telefono_contacto'),
+            'email_contacto' => $this->request->getPost('email_contacto'),
+        ];
+        $nuevosDatosAutenticacion = [
+            'usuario' => $this->request->getPost('usuario'),
+            'contrasena' => $this->request->getPost('contrasena'),
+            'tipo_persona' => 'ORGANIZACION',
+        ];
+
+        $organizacionModel->actualizarOrganizacion($id_organizacion, $nuevosDatosOrganizacion);
+
+        $autenticacionModel->update(['organizacion_id' => $id_organizacion], $nuevosDatosAutenticacion);
+
+        return redirect()->to('administrador/usuarios')->with('success', 'Organización y datos de autenticación actualizados correctamente.');
+    }
+
+    public function editar_organizacion($id_organizacion)
+    {
+        $organizacionModel = new OrganizacionModel();
+        $organizacionData = (object) $organizacionModel->obtenerOrganizacion($id_organizacion);
+
+        $autenticacionModel = new AutenticacionModel();
+        $credencialesData = (object)$autenticacionModel->obtener_credenciales_por_id_org($id_organizacion);
+
+        // Combinar los datos de las dos consultas en un solo array
+        $data = [
+            'organizacion' => $organizacionData,
+            'credenciales' => $credencialesData
+        ];
+
+        return view('administrador/editar_organizacion', $data);
+    }
 }

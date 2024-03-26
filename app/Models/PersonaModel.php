@@ -23,8 +23,6 @@ class PersonaModel extends Model
     }
     public function obtenerPersona($id)
     {
-        // Obtener los detalles de una persona por su ID
-        // Usar find() si estás buscando por clave primaria
         return $this->find($id);
     }
     public function obtenerNombrePersona($id)
@@ -41,11 +39,6 @@ class PersonaModel extends Model
             return $id;
         }
     }
-    
-    
-    
-
-
     public function actualizarPersona($id, $data)
     {
         // Actualizar los datos de una persona por su ID

@@ -10,18 +10,18 @@
     <!-- Barra de navegación -->
     <header>
         <?= $this->include('common/navbar'); ?>
-        
+
     </header>
-    
+
     <!-- Contenido principal -->
     <main>
-        <div class="container">
-            <h1>Sys Donacion</h1>
-            <p>...</p>
 
-            <!-- Inserta aquí el contenido específico de tu vista base -->
-            <?= $this->include('home/base'); ?>
-        </div>
+        <!-- Inserta aquí el contenido específico de tu vista base -->
+        <?= $this->include('home/inicio'); ?>
+        <?= $this->include('home/quienes_somos'); ?>
+        <?= $this->include('home/donaciones'); ?>
+        <?= $this->include('home/contacto'); ?>
+        <?= $this->include('home/preguntas'); ?>
     </main>
 
     <!-- Pie de página -->

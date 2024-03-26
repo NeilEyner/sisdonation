@@ -16,5 +16,25 @@ class HomeController extends BaseController
     {
         return view('home/base');
     }
+    public function inicio()
+    {
+        return view('home/inicio');
+    }
+    public function quienes_somos()
+    {
+        return view('home/quienes_somos');
+    }
+    public function donaciones()
+    {
+        return view('home/donaciones');
+    }
+    public function contacto()
+    {
+        return view('home/contacto');
+    }
+    public function preguntas()
+    {
+        return view('home/preguntas');
+    }
 }
 
