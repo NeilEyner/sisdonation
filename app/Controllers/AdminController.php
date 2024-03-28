@@ -154,7 +154,7 @@ class AdminController extends BaseController
                 return redirect()->to('administrador/usuarios')->with('error', 'La persona no existe o ya fue eliminada.');
             }
         } catch (\Exception $e) {
-            
+
             $db->transRollback();
             log_message('error', $e->getMessage());
             return redirect()->to('administrador/usuarios')->with('error', 'Error al intentar eliminar la persona y registros relacionados.');
@@ -240,6 +240,11 @@ class AdminController extends BaseController
                 'telefono_contacto' => $telefonoContacto,
                 'email_contacto' => $emailContacto,
             ];
+            if ($tipoOrganizacion == 'ORG_BENEFICA') {
+                $tipoOrganizacion = 'ORGANIZACION_BENEFICA';
+            } else {
+                $tipoOrganizacion = 'ORGANIZACION_RECEPTORA';
+            }
 
             // Instanciar el modelo
             $organizacionModel = new OrganizacionModel();
@@ -261,7 +266,7 @@ class AdminController extends BaseController
                     'usuario' => $usuario,
                     'contrasena' => $contrasena,
                     'organizacion_id' => $organizacionId,
-                    'tipo_persona' => 'ORGANIZACION',
+                    'tipo_persona' => $tipoOrganizacion,
                 ];
 
                 // Insertar datos de autenticación en la base de datos

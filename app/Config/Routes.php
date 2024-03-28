@@ -50,18 +50,27 @@ $routes->get('administrador/eliminar_organizacion/(:num)', 'AdminController::eli
 
 // Rutas del Voluntario
 $routes->get('voluntario/dashboard', 'VoluntarioController::dashboard');
-$routes->get('voluntario/gestion-donaciones', 'VoluntarioController::gestionDonaciones');
+$routes->get('voluntario/registro_actividades', 'VoluntarioController::registroActividades');
+$routes->get('voluntario/busqueda_oportunidades', 'VoluntarioController::busquedaOportunidades');
+$routes->get('voluntario/perfil', 'VoluntarioController::perfil');
 
 // Rutas de la Organización
-$routes->get('organizacion/dashboard', 'OrganizacionController::dashboard');
-$routes->get('organizacion/gestion-necesidades', 'OrganizacionController::gestionNecesidades');
-$routes->get('organizacion/recibir-donaciones', 'OrganizacionController::recibirDonaciones');
+$routes->get('organizacion_benefica/dashboard', 'OrganizacionBeneficaController::dashboard');
 
-// Otras Rutas
-$routes->get('productos/listar', 'ProductosController::listarProductos');
-$routes->get('alimentos/listar', 'AlimentosController::listarAlimentos');
-$routes->get('contacto', 'ContactoController::formularioContacto');
-$routes->get('faq', 'FAQController::preguntasFrecuentes');
+$routes->get('organizacion_benefica/gestion_productos', 'OrganizacionBeneficaController::gestionProductos');
+$routes->post('organizacion_benefica/agregar_producto', 'OrganizacionBeneficaController::agregarProducto');
+$routes->get('organizacion_benefica/editar_producto/(:num)', 'OrganizacionBeneficaController::editarProducto/$1');
+$routes->post('organizacion_benefica/actualizar_producto/(:num)', 'OrganizacionBeneficaController::actualizarProducto/$1');
+$routes->get('organizacion_benefica/eliminar_producto/(:num)', 'OrganizacionBeneficaController::eliminarProducto/$1');
 
-// agregar más rutas 
+$routes->get('organizacion_benefica/gestion_alimentos', 'OrganizacionBeneficaController::gestionAlimentos');
+$routes->post('organizacion_benefica/agregar_alimento', 'OrganizacionBeneficaController::agregarAlimento');
+$routes->get('organizacion_benefica/editar_alimento/(:num)', 'OrganizacionBeneficaController::editarAlimento/$1');
+$routes->post('organizacion_benefica/actualizar_alimento/(:num)', 'OrganizacionBeneficaController::actualizarAlimento/$1');
+$routes->get('organizacion_benefica/eliminar_alimento/(:num)', 'OrganizacionBeneficaController::eliminarAlimento/$1');
 
+$routes->get('organizacion_benefica/seguimiento_donaciones', 'OrganizacionBeneficaController::seguimientoDonaciones');
+$routes->get('organizacion_benefica/donaciones_pendientes', 'OrganizacionBeneficaController::donacionesPendientes');
+
+
+$routes->get('organizacion_receptora/dashboard', 'OrganizacionReceptoraController::dashboard');

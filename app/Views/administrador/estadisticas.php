@@ -1,6 +1,6 @@
 <?php
 // Calcula el número de registros en cada conjunto de datos
-$num_personas = count($personas)+1;
+$num_personas = count($personas) + 1;
 $num_organizaciones = count($organizaciones);
 $num_recepciones = count($recepciones);
 $num_entregas = count($entregas);
@@ -8,6 +8,8 @@ $num_donaciones = count($donaciones);
 ?>
 
 <div class="container mt-5">
+    <br>
+    <br>
     <h1 class="text-center mb-4">DASHBOARD</h1>
     <div class="row row-cols-1 row-cols-md-5 g-4">
         <div class="col">

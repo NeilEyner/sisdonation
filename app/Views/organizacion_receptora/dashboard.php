@@ -18,7 +18,7 @@
         <br>
         <!-- Contenido del dashboard -->
         <div class="container mt-4">
-            <h2>Bienvenido, <?= session()->get('nombre_usuario') ?></h2>
+            <h2>Bienvenido, <?= session()->get('tipo_usuario') ?></h2>
             
         </div>
 

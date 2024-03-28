@@ -12,9 +12,12 @@
     <header>
         <?= $this->include('common/navbar'); ?>
     </header>
-
+    
     <!-- Contenido principal -->
     <main>
+        <br>
+        <br>
+        <br>
         <div class="container">
             <h1>Usuarios</h1>
             <!-- Botón para agregar nueva persona -->

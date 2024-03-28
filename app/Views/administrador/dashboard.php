@@ -1,4 +1,4 @@
-<BR></BR>
+
 <?php if (isset($personas)) : ?>
     <div class="container">
         <h1>Lista de Personas</h1>

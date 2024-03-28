@@ -54,7 +54,9 @@
                             HOLA, <?= session()->get('nombre_usuario') ?>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="<?= site_url('organizacion_benefica/dashboard') ?>">Dashboard</a></li>
                             <li><a class="dropdown-item" href="<?= site_url('organizacion_benefica/gestion_productos') ?>">Gestión de Productos Donados</a></li>
+                            <li><a class="dropdown-item" href="<?= site_url('organizacion_benefica/gestion_alimentos') ?>">Gestión de Alimentos Donados</a></li>
                             <li><a class="dropdown-item" href="<?= site_url('organizacion_benefica/seguimiento_donaciones') ?>">Seguimiento de Donaciones</a></li>
                             <li><a class="dropdown-item" href="<?= site_url('organizacion_benefica/donaciones_pendientes') ?>">Panel de Donaciones Pendientes</a></li>
                             <li><a class="dropdown-item" href="<?= site_url('organizacion_benefica/perfil') ?>">Perfil de la Organización</a></li>
@@ -85,6 +87,7 @@
                             HOLA, <?= session()->get('nombre_usuario') ?>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="<?= site_url('voluntario/dashboard') ?>">Dashboard</a></li>
                             <li><a class="dropdown-item" href="<?= site_url('voluntario/registro_actividades') ?>">Registro de Actividades</a></li>
                             <li><a class="dropdown-item" href="<?= site_url('voluntario/busqueda_oportunidades') ?>">Búsqueda de Oportunidades de Voluntariado</a></li>
                             <li><a class="dropdown-item" href="<?= site_url('voluntario/perfil') ?>">Perfil de Voluntario</a></li>

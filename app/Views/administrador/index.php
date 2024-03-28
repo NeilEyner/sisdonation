@@ -13,8 +13,9 @@
 
     </header>
     <main>
+        
         <?= $this->include('administrador/estadisticas') ?>
-        <?= view('administrador/dashboard') ?>
+        <?= $this->include('administrador/dashboard') ?>
     </main>
 
     <!-- Pie de página -->
