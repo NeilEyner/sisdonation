@@ -7,8 +7,9 @@ helper('form');
 use CodeIgniter\Controller;
 use App\Models\PersonaModel;
 use App\Models\AutenticacionModel;
-use App\Models\DonacionesModel;
 use App\Models\OrganizacionModel;
+use App\Models\ProductoModel;
+use App\Models\AlimentoModel;
 
 
 class AdminController extends BaseController
@@ -45,7 +46,7 @@ class AdminController extends BaseController
         return view('administrador/index', $data);
     }
 
-    public function mostrarProductos()
+    public function mostrarProductos1()
     {
         // Cargar la base de datos
         $db = \Config\Database::connect();
@@ -379,5 +380,84 @@ class AdminController extends BaseController
         ];
 
         return view('administrador/editar_organizacion', $data);
+    }
+    public function mostrarProductos()
+    {
+        $productoModel = new ProductoModel();
+        $data['productos'] = $productoModel->findAll();
+        return view('administrador/mostrarProductos', $data);
+    }
+
+    public function agregarProducto()
+    {
+        if ($this->request->getMethod() === 'post') {
+            $productoModel = new ProductoModel();
+            $productoModel->save($this->request->getPost());
+            return redirect()->to('/administrador/productos');
+        } else {
+            return view('administrador/agregarProducto');
+        }
+    }
+
+    public function editarProducto($id)
+    {
+        $productoModel = new ProductoModel();
+        $data['producto'] = $productoModel->find($id);
+        return view('administrador/editarProducto', $data);
+    }
+
+    public function guardarEdicionProducto($id)
+    {
+        $productoModel = new ProductoModel();
+        $productoModel->update($id, $this->request->getPost());
+        return redirect()->to('/administrador/mostrarProductos');
+    }
+
+    public function eliminarProducto($id)
+    {
+        $productoModel = new ProductoModel();
+        $productoModel->delete($id);
+        return redirect()->to('/administrador/mostrarProductos');
+    }
+
+    // Funciones para alimentos
+
+    public function mostrarAlimentos()
+    {
+        $alimentoModel = new AlimentoModel();
+        $data['alimentos'] = $alimentoModel->findAll();
+        return view('administrador/mostrarAlimentos', $data);
+    }
+
+    public function agregarAlimento()
+    {
+        if ($this->request->getMethod() === 'post') {
+            $alimentoModel = new AlimentoModel();
+            $alimentoModel->save($this->request->getPost());
+            return redirect()->to('/administrador/alimentos');
+        } else {
+            return view('administrador/agregarAlimento');
+        }
+    }
+
+    public function editarAlimento($id)
+    {
+        $alimentoModel = new AlimentoModel();
+        $data['alimento'] = $alimentoModel->find($id);
+        return view('administrador/editarAlimento', $data);
+    }
+
+    public function guardarEdicionAlimento($id)
+    {
+        $alimentoModel = new AlimentoModel();
+        $alimentoModel->update($id, $this->request->getPost());
+        return redirect()->to('/administrador/mostrarAlimentos');
+    }
+
+    public function eliminarAlimento($id)
+    {
+        $alimentoModel = new AlimentoModel();
+        $alimentoModel->delete($id);
+        return redirect()->to('/administrador/mostrarAlimentos');
     }
 }

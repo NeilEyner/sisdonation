@@ -39,7 +39,8 @@
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="<?= site_url('administrador/dashboard') ?>">Dashboard</a></li>
                             <li><a class="dropdown-item" href="<?= site_url('administrador/usuarios') ?>">Usuarios</a></li>
-                            <li><a class="dropdown-item" href="<?= site_url('administrador/productos_vista') ?>">Productos</a></li>
+                            <li><a class="dropdown-item" href="<?= site_url('administrador/mostrarProductos') ?>">Productos</a></li>
+                            <li><a class="dropdown-item" href="<?= site_url('administrador/mostrarAlimentos') ?>">Alimentos</a></li>
                             <li><a class="dropdown-item" href="<?= site_url('administrador/donaciones_pendientes') ?>">Donaciones Pendientes</a></li>
                             <li>
                                 <hr class="dropdown-divider">

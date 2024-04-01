@@ -30,7 +30,6 @@ $routes->get('administrador/dashboard', 'AdminController::mostrarPersonasEntrega
 $routes->get('administrador/gestion-usuarios', 'AdminController::gestionUsuarios');
 $routes->get('administrador/configuracion-sitio', 'AdminController::configuracionSitio');
 $routes->get('administrador/estadisticas', 'AdminController::estadisticas');
-$routes->get('administrador/productos_vista', 'AdminController::mostrarProductos');
 $routes->get('administrador/usuarios', 'AdminController::usuarios');
 
 $routes->match(['get', 'post'], 'administrador/agregar-persona', 'AdminController::agregarPersona');
@@ -44,6 +43,23 @@ $routes->get('administrador/agregar_organizacion', 'AdminController::agregarOrga
 $routes->get('administrador/editar_organizacion/(:num)', 'AdminController::editar_organizacion/$1');
 $routes->post('administrador/guardar_edicion_organizacion/(:num)', 'AdminController::guardar_edicion_organizacion/$1');
 $routes->get('administrador/eliminar_organizacion/(:num)', 'AdminController::eliminarOrganizacion/$1');
+
+// Rutas de Productos
+$routes->get('administrador/mostrarProductos', 'AdminController::mostrarProductos');
+$routes->get('administrador/agregarProducto', 'AdminController::agregarProducto');
+$routes->post('administrador/agregarProducto', 'AdminController::agregarProducto');
+$routes->get('administrador/editarProducto/(:num)', 'AdminController::editarProducto/$1');
+$routes->post('administrador/editarProducto/(:num)', 'AdminController::guardarEdicionProducto/$1');
+$routes->get('administrador/eliminarProducto/(:num)', 'AdminController::eliminarProducto/$1');
+
+// Rutas de Alimentos
+$routes->get('administrador/mostrarAlimentos', 'AdminController::mostrarAlimentos');
+$routes->get('administrador/agregarAlimento', 'AdminController::agregarAlimento');
+$routes->post('administrador/agregarAlimento', 'AdminController::agregarAlimento');
+$routes->get('administrador/editarAlimento/(:num)', 'AdminController::editarAlimento/$1');
+$routes->post('administrador/editarAlimento/(:num)', 'AdminController::guardarEdicionAlimento/$1');
+$routes->get('administrador/eliminarAlimento/(:num)', 'AdminController::eliminarAlimento/$1');
+
 
 
 
