@@ -27,7 +27,6 @@ $routes->get('cerrar_sesion', 'AuthController::cerrar_sesion');
 
 $routes->get('administrador/dashboard', 'AdminController::mostrarPersonasEntregasRecepciones');
 
-
 $routes->get('administrador/gestion-usuarios', 'AdminController::gestionUsuarios');
 $routes->get('administrador/configuracion-sitio', 'AdminController::configuracionSitio');
 $routes->get('administrador/estadisticas', 'AdminController::estadisticas');
