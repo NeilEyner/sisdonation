@@ -17,7 +17,7 @@
             <br>
             <br>
             <br>
-            <h1>Panel de Donaciones Pendientes</h1>
+            <h1>Panel de seguimiento Donaciones</h1>
 
             <!-- Tabla para mostrar información sobre las donaciones pendientes -->
             <table class="table table-striped">

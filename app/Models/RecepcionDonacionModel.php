@@ -6,11 +6,9 @@ use CodeIgniter\Model;
 
 class RecepcionDonacionModel extends Model
 {
-    protected $table = 'recepcion_donaciones'; // Nombre de la tabla en la base de datos
-    protected $primaryKey = 'id_recepcion'; // Clave primaria de la tabla
-
-    protected $allowedFields = ['fecha_recepcion', 'cantidad_total', 'observacion', 'persona_realiza_id', 'responsable_r_id', 'organizacion_realiza_id']; // Campos permitidos para operaciones CRUD
-
+    protected $table = 'Recepcion_Donaciones';
+    protected $primaryKey = 'id_recepcion';
+    protected $allowedFields = ['fecha_recepcion', 'cantidad_total', 'observacion', 'persona_realiza_id', 'responsable_r_id', 'organizacion_realiza_id'];
     protected $useTimestamps = false; // Deshabilita el uso de timestamps
 
     // Obtener todas las donaciones

@@ -6,9 +6,15 @@ use App\Models\ProductoModel;
 use App\Models\AlimentoModel;
 use App\Models\RecepcionDonacionModel;
 use App\Models\EntregaDonacionModel;
+use CodeIgniter\Controller;
 
 class OrganizacionBeneficaController extends BaseController
 {
+
+    public function dashboard()
+    {
+        return view('organizacion_benefica/dashboard');
+    }
     public function gestionProductos()
     {
         $productoModel = new ProductoModel();
@@ -102,7 +108,6 @@ class OrganizacionBeneficaController extends BaseController
     public function editarAlimento($id)
     {
         $alimentoModel = new AlimentoModel();
-
         $data['alimento'] = $alimentoModel->find($id);
         return view('organizacion_benefica/editar_alimento', $data);
     }
@@ -134,14 +139,14 @@ class OrganizacionBeneficaController extends BaseController
     public function seguimientoDonaciones()
     {
         // Carga el modelo de recepción de donaciones
-        $recepcionDonacionModel = new RecepcionDonacionModel();
+        $recepcionDonacionModel = new EntregaDonacionModel();
 
         // Recupera todas las donaciones desde la base de datos
         $donaciones = $recepcionDonacionModel->findAll();
 
         // Verifica si se encontraron donaciones
         if (!empty($donaciones)) {
-            $data['donaciones'] = $donaciones;
+            $data['donacionesPendientes'] = $donaciones;
         } else {
             // Si no se encontraron donaciones, se puede establecer un mensaje de error o redirigir a una página de error
             $data['error'] = "No se encontraron donaciones.";
@@ -152,20 +157,18 @@ class OrganizacionBeneficaController extends BaseController
     }
 
 
-    public function DonacionesPendientes()
+    public function donacionesPendientes()
     {
         // Carga el modelo de recepción de donaciones
         $recepcionModel = new EntregaDonacionModel();
-    
+
         // Recupera las donaciones pendientes desde la base de datos
         $donacionesPendientes = $recepcionModel->where('estado_entrega', 'PENDIENTE')->findAll();
-    
+
         // Pasa los datos recuperados a la vista
         $data['donacionesPendientes'] = $donacionesPendientes;
-    
+
         // Carga la vista de panel de donaciones pendientes y pasa los datos
         return view('organizacion_benefica/donaciones_pendientes', $data);
     }
-    
-    
 }

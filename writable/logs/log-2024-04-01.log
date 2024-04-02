@@ -389,3 +389,982 @@ INFO - 2024-04-01 20:17:28 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-04-01 20:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-04-01 20:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-04-01 20:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 21:23:20 --> Error: Call to undefined function form_open()
+in APPPATH\Views\donante\formulario_donacion.php on line 11.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('donante/formulario_donacion', [], true)
+ 4 APPPATH\Controllers\DonanteController.php(13): view('donante/formulario_donacion')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DonanteController->formularioDonacion()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 21:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 21:25:19 --> Error: Call to undefined function form_open()
+in APPPATH\Views\donante\formulario_donacion.php on line 9.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('donante/formulario_donacion', [], true)
+ 4 APPPATH\Controllers\DonanteController.php(13): view('donante/formulario_donacion')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DonanteController->formularioDonacion()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 21:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 21:25:21 --> Error: Call to undefined function form_open()
+in APPPATH\Views\donante\formulario_donacion.php on line 9.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('donante/formulario_donacion', [], true)
+ 4 APPPATH\Controllers\DonanteController.php(13): view('donante/formulario_donacion')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DonanteController->formularioDonacion()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 21:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 21:26:24 --> Error: Call to undefined function form_open()
+in APPPATH\Views\donante\formulario_donacion.php on line 9.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('donante/formulario_donacion', [], true)
+ 4 APPPATH\Controllers\DonanteController.php(13): view('donante/formulario_donacion')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DonanteController->formularioDonacion()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 21:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 21:27:17 --> Error: Call to undefined function form_open()
+in APPPATH\Views\donante\formulario_donacion.php on line 9.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('donante/formulario_donacion', [], true)
+ 4 APPPATH\Controllers\DonanteController.php(13): view('donante/formulario_donacion')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DonanteController->formularioDonacion()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 21:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 21:27:50 --> Error: Call to undefined function form_open()
+in APPPATH\Views\donante\formulario_donacion.php on line 9.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('donante/formulario_donacion', [], true)
+ 4 APPPATH\Controllers\DonanteController.php(15): view('donante/formulario_donacion')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DonanteController->formularioDonacion()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 21:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 22:56:05 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 22:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 22:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 22:56:53 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:01:22 --> ParseError: syntax error, unexpected token "\", expecting end of file
+in APPPATH\Config\Routes.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:01:30 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:01:31 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:01:54 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:01:56 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:01:56 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:01:56 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:03:15 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:03:16 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:03:16 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:03:17 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:03:17 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:03:18 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:03:18 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:03:18 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:03:19 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:03:19 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:03:20 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:03:20 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:03:34 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:04:00 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:06:07 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-01 23:06:25 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\OrganizacionBeneficaController.php on line 150.
+ 1 APPPATH\Controllers\OrganizacionBeneficaController.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\sdon\\app\\Controllers\\OrganizacionBeneficaController.php', 150)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:07:02 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(155): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:07:44 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(151): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:07:45 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(151): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:07:46 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(151): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:07:46 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(151): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:08:18 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(150): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:08:35 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(150): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:10:40 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(149): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:10:41 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(149): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:10:41 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(149): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:12:06 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:12:24 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:12:33 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:12:56 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:14:00 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:14:02 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:14:03 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:14:03 --> ErrorException: Undefined variable $donacionesPendientes
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 36.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donacionesPendientes', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:14:25 --> ErrorException: Undefined array key "id_entrega"
+in APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php on line 38.
+ 1 APPPATH\Views\organizacion_benefica\seguimiento_donaciones.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_entrega"', 'C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sdon\\app\\Views\\organizacion_benefica\\seguimiento_donaciones.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('organizacion_benefica/seguimiento_donaciones', [], true)
+ 5 APPPATH\Controllers\OrganizacionBeneficaController.php(156): view('organizacion_benefica/seguimiento_donaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrganizacionBeneficaController->seguimientoDonaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrganizacionBeneficaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:37:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "donante/formulario_donacionn.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('donante/formulario_donacionn.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('donante/formulario_donacionn', [], true)
+ 3 APPPATH\Controllers\DonanteController.php(96): view('donante/formulario_donacionn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DonanteController->registrarEntrega()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:38:16 --> ParseError: Unclosed '{' on line 9
+in APPPATH\Controllers\DonanteController.php on line 101.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sdon\\app\\Controllers\\DonanteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DonanteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DonanteController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\DonanteController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:38:48 --> ParseError: syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\DonanteController.php on line 90.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sdon\\app\\Controllers\\DonanteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DonanteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DonanteController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\DonanteController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-01 23:39:03 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sis_donacion`.`entrega_donaciones`, CONSTRAINT `entrega_donaciones_ibfk_1` FOREIGN KEY (`responsable_entrega_id`) REFERENCES `persona` (`id_persona`)) in C:\xampp\htdocs\sdon\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\sdon\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `en...', 0)
+#1 C:\xampp\htdocs\sdon\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 C:\xampp\htdocs\sdon\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 C:\xampp\htdocs\sdon\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 C:\xampp\htdocs\sdon\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\sdon\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\sdon\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\sdon\app\Controllers\DonanteController.php(90): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\sdon\system\CodeIgniter.php(941): App\Controllers\DonanteController->registrarEntrega()
+#9 C:\xampp\htdocs\sdon\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+#10 C:\xampp\htdocs\sdon\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sdon\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-04-01 23:39:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`sis_donacion`.`entrega_donaciones`, CONSTRAINT `entrega_donaciones_ibfk_1` FOREIGN KEY (`responsable_entrega_id`) REFERENCES `persona` (`id_persona`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (:fecha_entrega:, :cantidad_entregada:, :observacion:, :responsable_entrega_id:, :responsable_recepcion_entrega_id:, :org_receptora_id:, :estado_entrega:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\DonanteController.php(90): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DonanteController->registrarEntrega()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-01 23:39:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`sis_donacion`.`entrega_donaciones`, CONSTRAINT `entrega_donaciones_ibfk_1` FOREIGN KEY (`responsable_entrega_id`) REFERENCES `persona` (`id_persona`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (\'2024-05-10\', \'324\', \'wer\', \'\', \'\', \'\', \'PENDIENTE\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (\'2024-05-10\', \'324\', \'wer\', \'\', \'\', \'\', \'PENDIENTE\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (:fecha_entrega:, :cantidad_entregada:, :observacion:, :responsable_entrega_id:, :responsable_recepcion_entrega_id:, :org_receptora_id:, :estado_entrega:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\DonanteController.php(90): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DonanteController->registrarEntrega()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-01 23:39:03 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sis_donacion`.`entrega_donaciones`, CONSTRAINT `entrega_donaciones_ibfk_1` FOREIGN KEY (`responsable_entrega_id`) REFERENCES `persona` (`id_persona`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (\'2024-05-10\', \'324\', \'wer\', \'\', \'\', \'\', \'PENDIENTE\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (\'2024-05-10\', \'324\', \'wer\', \'\', \'\', \'\', \'PENDIENTE\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (\'2024-05-10\', \'324\', \'wer\', \'\', \'\', \'\', \'PENDIENTE\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (:fecha_entrega:, :cantidad_entregada:, :observacion:, :responsable_entrega_id:, :responsable_recepcion_entrega_id:, :org_receptora_id:, :estado_entrega:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\DonanteController.php(90): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DonanteController->registrarEntrega()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 23:39:36 --> ParseError: Unclosed '{' on line 9
+in APPPATH\Controllers\DonanteController.php on line 101.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sdon\\app\\Controllers\\DonanteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DonanteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DonanteController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\DonanteController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-01 23:39:46 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sis_donacion`.`entrega_donaciones`, CONSTRAINT `entrega_donaciones_ibfk_1` FOREIGN KEY (`responsable_entrega_id`) REFERENCES `persona` (`id_persona`)) in C:\xampp\htdocs\sdon\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\sdon\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `en...', 0)
+#1 C:\xampp\htdocs\sdon\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 C:\xampp\htdocs\sdon\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 C:\xampp\htdocs\sdon\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 C:\xampp\htdocs\sdon\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\sdon\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\sdon\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\sdon\app\Controllers\DonanteController.php(90): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\sdon\system\CodeIgniter.php(941): App\Controllers\DonanteController->registrarEntrega()
+#9 C:\xampp\htdocs\sdon\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+#10 C:\xampp\htdocs\sdon\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sdon\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-04-01 23:39:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`sis_donacion`.`entrega_donaciones`, CONSTRAINT `entrega_donaciones_ibfk_1` FOREIGN KEY (`responsable_entrega_id`) REFERENCES `persona` (`id_persona`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (:fecha_entrega:, :cantidad_entregada:, :observacion:, :responsable_entrega_id:, :responsable_recepcion_entrega_id:, :org_receptora_id:, :estado_entrega:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\DonanteController.php(90): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DonanteController->registrarEntrega()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-01 23:39:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`sis_donacion`.`entrega_donaciones`, CONSTRAINT `entrega_donaciones_ibfk_1` FOREIGN KEY (`responsable_entrega_id`) REFERENCES `persona` (`id_persona`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (\'2024-05-10\', \'324\', \'wer\', \'\', \'\', \'\', \'PENDIENTE\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (\'2024-05-10\', \'324\', \'wer\', \'\', \'\', \'\', \'PENDIENTE\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (:fecha_entrega:, :cantidad_entregada:, :observacion:, :responsable_entrega_id:, :responsable_recepcion_entrega_id:, :org_receptora_id:, :estado_entrega:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\DonanteController.php(90): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DonanteController->registrarEntrega()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-01 23:39:46 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sis_donacion`.`entrega_donaciones`, CONSTRAINT `entrega_donaciones_ibfk_1` FOREIGN KEY (`responsable_entrega_id`) REFERENCES `persona` (`id_persona`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (\'2024-05-10\', \'324\', \'wer\', \'\', \'\', \'\', \'PENDIENTE\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (\'2024-05-10\', \'324\', \'wer\', \'\', \'\', \'\', \'PENDIENTE\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (\'2024-05-10\', \'324\', \'wer\', \'\', \'\', \'\', \'PENDIENTE\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (:fecha_entrega:, :cantidad_entregada:, :observacion:, :responsable_entrega_id:, :responsable_recepcion_entrega_id:, :org_receptora_id:, :estado_entrega:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\DonanteController.php(90): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DonanteController->registrarEntrega()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-01 23:40:01 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sis_donacion`.`entrega_donaciones`, CONSTRAINT `entrega_donaciones_ibfk_1` FOREIGN KEY (`responsable_entrega_id`) REFERENCES `persona` (`id_persona`)) in C:\xampp\htdocs\sdon\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\sdon\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `en...', 0)
+#1 C:\xampp\htdocs\sdon\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 C:\xampp\htdocs\sdon\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 C:\xampp\htdocs\sdon\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 C:\xampp\htdocs\sdon\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\sdon\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\sdon\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\sdon\app\Controllers\DonanteController.php(90): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\sdon\system\CodeIgniter.php(941): App\Controllers\DonanteController->registrarEntrega()
+#9 C:\xampp\htdocs\sdon\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+#10 C:\xampp\htdocs\sdon\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sdon\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-04-01 23:40:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`sis_donacion`.`entrega_donaciones`, CONSTRAINT `entrega_donaciones_ibfk_1` FOREIGN KEY (`responsable_entrega_id`) REFERENCES `persona` (`id_persona`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (:fecha_entrega:, :cantidad_entregada:, :observacion:, :responsable_entrega_id:, :responsable_recepcion_entrega_id:, :org_receptora_id:, :estado_entrega:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\DonanteController.php(90): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DonanteController->registrarEntrega()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-01 23:40:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`sis_donacion`.`entrega_donaciones`, CONSTRAINT `entrega_donaciones_ibfk_1` FOREIGN KEY (`responsable_entrega_id`) REFERENCES `persona` (`id_persona`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (\'2024-04-11\', \'324123\', \'ninguna\', \'\', \'\', \'\', \'PENDIENTE\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (\'2024-04-11\', \'324123\', \'ninguna\', \'\', \'\', \'\', \'PENDIENTE\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (:fecha_entrega:, :cantidad_entregada:, :observacion:, :responsable_entrega_id:, :responsable_recepcion_entrega_id:, :org_receptora_id:, :estado_entrega:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\DonanteController.php(90): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DonanteController->registrarEntrega()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-01 23:40:01 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sis_donacion`.`entrega_donaciones`, CONSTRAINT `entrega_donaciones_ibfk_1` FOREIGN KEY (`responsable_entrega_id`) REFERENCES `persona` (`id_persona`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (\'2024-04-11\', \'324123\', \'ninguna\', \'\', \'\', \'\', \'PENDIENTE\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (\'2024-04-11\', \'324123\', \'ninguna\', \'\', \'\', \'\', \'PENDIENTE\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (\'2024-04-11\', \'324123\', \'ninguna\', \'\', \'\', \'\', \'PENDIENTE\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `entrega_donaciones` (`fecha_entrega`, `cantidad_entregada`, `observacion`, `responsable_entrega_id`, `responsable_recepcion_entrega_id`, `org_receptora_id`, `estado_entrega`) VALUES (:fecha_entrega:, :cantidad_entregada:, :observacion:, :responsable_entrega_id:, :responsable_recepcion_entrega_id:, :org_receptora_id:, :estado_entrega:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\DonanteController.php(90): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DonanteController->registrarEntrega()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DonanteController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 23:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 23:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
